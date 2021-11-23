@@ -5,18 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Whyte</title>
+    <!--Link CSS-->
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     
     <!--logo + nav-->
     <header>
-        <img src="./assets/img/logob.png" alt="Logo_Blanco">
-        <nav>
-            <ul>
-                <li><a href="pages/new.html">New</a></li>
-                <li><a href="pages/pedidos.html">Pedidos</a></li>
-                <li><a href="pages/nosotros.html">Nosotros</a></li>
-                <li><a href="pages/contacto.html">Contacto</a></li>
+        
+        <nav class="menu">
+            <img src="./assets/img/logob.png" alt="Logo_Blanco" class="menu__img">
+            <!-- fuente Roboto-->
+                <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+            <!-- End Roboto-->
+            <ul class="menu__lista01">
+                <li class="menu__item01"><a href="pages/new.html">New</a></li>
+                <li class="menu__item01"><a href="pages/pedidos.html">Pedidos</a></li>
+                
+            </ul>
+
+            <ul class="menu__lista02">
+                <li class="menu__item02"><a href="pages/nosotros.html">Nosotros</a></li>
+                <li class="menu__item02"><a href="pages/contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -24,22 +34,28 @@
     <main>
     <!--inicio de home-->
     <section>
-        <img src="./assets/img/Image Home.png" alt="Imagen_Home">
-        <h2>Conoce las nuevas</h2>
-        <h3>Travis Scott x Air Jordan 1</h3>
-        <h3>Low' Mocha'</h3>
-        <p>El Travis Scott x Air Jordan 1 Low ‘Mocha’ es el resultado de una colaboración entre Jordan Brand y Travis Scott.</p>
-        <h3>Comprar Ahora</h3>
+        <img class="image__home" src="./assets/img/Image Home.png" alt="imagen__home">
+        <div class="text__home">
+            <h2>Conoce las nuevas</h2>
+            <h3 class="travis">Travis Scott x Air Jordan 1</h3>
+            <h3 class="low">Low' Mocha'</h3>
+            <p>El Travis Scott x Air Jordan 1 Low ‘Mocha’ es el resultado de una colaboración entre Jordan Brand y Travis Scott.</p>
+            <h3 class="comprar">Comprar Ahora</h3>
+        </div>
     </section>
     <!--Final de home-->
     </main>
     <!--inicio footer-->
-    <footer>
+    <footer class="footer">
         <hr>
-        <img src="./assets/img/logon.png" alt="Logo_Negro">
-        <img src="./assets/img/Twitter Icon.png" alt="Icon_Twitter">
-        <img src="./assets/img/FB icon.png" alt="Icon_FB">
-        <img src="./assets/img/Instagram Icon.png" alt="Icon_Instagram">
+        <div class="logo__footer">
+            <img src="./assets/img/logon.png" alt="Logo_Negro">
+        </div>
+        <div class="social__icon">
+            <img src="./assets/img/Twitter Icon.png" alt="Icon_Twitter">
+            <img src="./assets/img/FB icon.png" alt="Icon_FB">
+            <img src="./assets/img/Instagram Icon.png" alt="Icon_Instagram">
+        </div>
         <p>WHITE. © 2021. Todos los derechos reservados</p>
     </footer>
 </body>
